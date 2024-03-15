@@ -9,3 +9,5 @@
 - Padrões Estruturais: Os padrões dessa categoria se preocupam em melhor organizar a estrutura das classes e os relacionamentos entre classes e objetos.
   
 - Padrões Comportamentais: Os padrões dessa categoria atuam diretamente na delegação de responsabilidades, definindo como os objetos devem se comportar e se comunicar.
+
+<img src="padroesdeprojeto.png">
