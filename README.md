@@ -36,16 +36,16 @@ O **Strategy** é um padrão de projeto comportamental que permite que você def
 
     5.Os Clientes do contexto devem associá-lo com uma estratégia apropriada que coincide com a maneira que esperam que o contexto atue em seu trabalho primário.
 
-- Prós
-  -- Você pode trocar algoritmos usados dentro de um objeto durante a execução.
--> Você pode isolar os detalhes de implementação de um algoritmo do código que usa ele.
--> Você pode substituir a herança por composição.
--> Princípio aberto/fechado. Você pode introduzir novas estratégias sem mudar o contexto.
+### Prós
+  - Você pode trocar algoritmos usados dentro de um objeto durante a execução.
+  - Você pode isolar os detalhes de implementação de um algoritmo do código que usa ele.
+  - Você pode substituir a herança por composição.
+  - Princípio aberto/fechado. Você pode introduzir novas estratégias sem mudar o contexto.
 
-- Contras
--> Se você só tem um par de algoritmos e eles raramente mudam, não há motivo real para deixar o programa mais complicado com novas classes e interfaces que vêm junto com o padrão.
--> Os Clientes devem estar cientes das diferenças entre as estratégias para serem capazes de selecionar a adequada.
--> Muitas linguagens de programação modernas tem suporte do tipo funcional que permite que você implemente diferentes versões de um algoritmo dentro de um conjunto de funções anônimas. Então você poderia usar essas funções exatamente como se estivesse usando objetos estratégia, mas sem inchar seu código com classes e interfaces adicionais.
+### Contras
+  - Se você só tem um par de algoritmos e eles raramente mudam, não há motivo real para deixar o programa mais complicado com novas classes e interfaces que vêm junto com o padrão.
+  - Os Clientes devem estar cientes das diferenças entre as estratégias para serem capazes de selecionar a adequada.
+  - Muitas linguagens de programação modernas tem suporte do tipo funcional que permite que você implemente diferentes versões de um algoritmo dentro de um conjunto de funções anônimas. Então você poderia usar essas funções exatamente como se estivesse usando objetos estratégia, mas sem inchar seu código com classes e interfaces adicionais.
 
 ## Observer
 O **Observer** é um padrão de projeto comportamental que permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
@@ -70,10 +70,10 @@ O **Observer** é um padrão de projeto comportamental que permite que você def
 
     7.O cliente deve criar todas os assinantes necessários e registrá-los com suas publicadoras apropriadas.
 
-- Prós
--> Princípio aberto/fechado. Você pode introduzir novas classes assinantes sem ter que mudar o código da publicadora (e vice versa se existe uma interface publicadora).
--> Você pode estabelecer relações entre objetos durante a execução.
+### Prós
+  - Princípio aberto/fechado. Você pode introduzir novas classes assinantes sem ter que mudar o código da publicadora (e vice versa se existe uma interface publicadora).
+  - Você pode estabelecer relações entre objetos durante a execução.
 
-- Contras
--> Assinantes são notificados em ordem aleatória
+### Contras
+  - Assinantes são notificados em ordem aleatória
 
