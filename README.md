@@ -1,6 +1,7 @@
 # PAP (Padrões de Projeto)
 
 ## Resume
+Padrões de projeto são soluções típicas para problemas comuns em projeto de software.
 
 ### Categoria
 - Padrões de Criação: Tem como objetivo abstrair a instanciação de objetos. Com eles, o sistema vai solicitar um objeto de um determinado tipo e o terá prontinho, sob demanda, sem nem se preocupar com as nuances da criação.
