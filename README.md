@@ -37,7 +37,7 @@ O **Strategy** é um padrão de projeto comportamental que permite que você def
     5.Os Clientes do contexto devem associá-lo com uma estratégia apropriada que coincide com a maneira que esperam que o contexto atue em seu trabalho primário.
 
 - Prós
--> Você pode trocar algoritmos usados dentro de um objeto durante a execução.
+  -- Você pode trocar algoritmos usados dentro de um objeto durante a execução.
 -> Você pode isolar os detalhes de implementação de um algoritmo do código que usa ele.
 -> Você pode substituir a herança por composição.
 -> Princípio aberto/fechado. Você pode introduzir novas estratégias sem mudar o contexto.
