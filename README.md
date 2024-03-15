@@ -10,5 +10,5 @@
 - Padrões Comportamentais:  Atuam diretamente na delegação de responsabilidades, definindo como os objetos devem se comportar e se comunicar.
   
 <p align="center">
-  <img width="460" height="300" src="padroesdeprojeto.png">
+  <img width="460" height="400" src="padroesdeprojeto.png">
 </p>
